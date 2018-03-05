@@ -39,14 +39,14 @@
       - column-reverse（垂直反轉）
       
 
-### javascript 語法  
+### javascript 語法
 #### <1>keydown監聽
-	`window.addEventListener('keydown', playSound);`監聽鍵盤  
-#### <2>建立function `playSound`  
-    - 取得對應 `data-key` 的元素  
-    - 若不是則 `return`  
-    - 對取得的元素進行播放及動畫  
-    - 設定音檔長度為0，才可以連擊  
+`window.addEventListener('keydown', playSound);`監聽鍵盤
+#### <2>建立function `playSound`
+1. 取得對應`data-key`的元素
+2. 若不是則`return`
+3. 對取得的元素進行播放及動畫
+4. 設定音檔長度為0，才可以連擊
 	
 	
 
