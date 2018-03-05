@@ -77,5 +77,5 @@ window.addEventListener('keydown', playSound);
 ```
 1. 利用自定義屬性`data-key`儲存`keyCode`，連接音檔`audio`及按鍵`div`。
 2. `transitionend`事件，在CSS transition後會被觸發，利用他將特效移除。
+`比起使用setTimeout讓動畫效果消失，使用transitionend事件，能夠防止css修改js也必須修改的問題`
 3. `if`用來判斷其中一個發生transition的樣式，讓特效移除只執行一次。
-`比起使用setTimeout讓動畫效果消失，使用Transition end，能夠防止css修改js也必須修改的問題`
