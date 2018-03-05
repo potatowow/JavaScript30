@@ -37,3 +37,10 @@
       - row-reverse（水平反轉）
       - column（垂直）
       - column-reverse（垂直反轉）
+      
+
+### javascript
+#### <1>新增keydown監聽
+	
+
+比起使用setTimeout讓動畫效果消失，使用Transition end，能夠防止css修改js也必須修改的問題
